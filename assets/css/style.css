@@ -22,7 +22,7 @@
 
   --smokey-black: hsl(0, 0%, 7%);
   --eerie-black: hsl(0, 0%, 9%);
-  --radical-red: hsl(346, 100%, 58%);
+  --radical-red: #855ABB;
   --white_a9: hsla(0, 0%, 100%, 0.09);
   --white_a15: hsla(0, 0%, 100%, 0.15);
   --white_a25: hsla(0, 0%, 100%, 0.25);
@@ -319,7 +319,7 @@ body.active { overflow: hidden; }
 
 @keyframes rotate360 {
   0% { transform: translate(-50%, -50%) rotate(0); }
-  100% { transform: translate(-50%, -50%) rotate(1turn); }
+  100% { transform: translate(-50%, -50%) rotate(2turn); }
 }
 
 
@@ -367,6 +367,13 @@ body.active { overflow: hidden; }
   transition: 0.25s var(--cubic-out);
   visibility: hidden;
 }
+
+.logo-icon{
+  display: flex;
+  font-size: 24px;
+  gap: 12px;
+}
+
 
 .navbar.active {
   visibility: visible;
