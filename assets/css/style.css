@@ -20,9 +20,9 @@
    * colors
    */
 
-  --smokey-black: hsl(0, 0%, 7%);
+  --smokey-black:#050f1e;
   --eerie-black: hsl(0, 0%, 9%);
-  --radical-red: #ae7fe7;
+  --radical-red: #055FFD;
   --white_a9: hsla(0, 0%, 100%, 0.09);
   --white_a15: hsla(0, 0%, 100%, 0.15);
   --white_a25: hsla(0, 0%, 100%, 0.25);
@@ -39,8 +39,7 @@
    * gradient color
    */
 
-  --gradient-1: linear-gradient(180deg, transparent, var(--smokey-black));
-  --gradient-2: linear-gradient(180deg,var(--smokey-black) 25%,hsla(0, 0%, 0%, 0.6) 80%);
+ 
 
   /**
    * typography
@@ -341,7 +340,7 @@ body.active { overflow: hidden; }
 }
 
 .header.active {
-  background-color: var(--eerie-black);
+  background-color: var(--smokey-black);
   padding-block: 12px;
   box-shadow: var(--shadow);
 }
